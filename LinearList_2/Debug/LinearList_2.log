@@ -1,0 +1,41 @@
+﻿生成启动时间为 2022/6/30 17:27:17。
+     1>项目“D:\文档\Visual Studio 2013\data structure\LinearList_2\LinearList_2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LinearList_2.cpp
+         LinearList_2.cpp
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(70): error C2011: “LNode”:“struct”类型重定义
+                 d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(9) : 参见“LNode”的声明
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(77): error C2084: 函数“bool InitList(LinkList &)”已有主体
+                 d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(15) : 参见“InitList”的前一个定义
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(81): error C2027: 使用了未定义类型“LNode”
+                 d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(9) : 参见“LNode”的声明
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(81): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(87): error C2084: 函数“bool Empty(LinkList)”已有主体
+                 d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(22) : 参见“Empty”的前一个定义
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(88): error C2027: 使用了未定义类型“LNode”
+                 d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(9) : 参见“LNode”的声明
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(88): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(96): error C2084: 函数“bool ListInsert(LinkList &,int,int)”已有主体
+                 d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(27) : 参见“ListInsert”的前一个定义
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(104): error C2027: 使用了未定义类型“LNode”
+                 d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(9) : 参见“LNode”的声明
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(104): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(110): error C2027: 使用了未定义类型“LNode”
+                 d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(9) : 参见“LNode”的声明
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(110): error C2227: “->data”的左边必须指向类/结构/联合/泛型类型
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(111): error C2027: 使用了未定义类型“LNode”
+                 d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(9) : 参见“LNode”的声明
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(111): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+                 d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(9) : 参见“LNode”的声明
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(112): error C2027: 使用了未定义类型“LNode”
+                 d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(9) : 参见“LNode”的声明
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(112): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(117): error C2084: 函数“void test(void)”已有主体
+                 d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(57) : 参见“test”的前一个定义
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(121): error C3861: “InitList”:  找不到标识符
+     1>d:\文档\visual studio 2013\data structure\linearlist_2\linearlist_2.cpp(124): error C3861: “Empty”:  找不到标识符
+     1>已完成生成项目“D:\文档\Visual Studio 2013\data structure\LinearList_2\LinearList_2.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.35
