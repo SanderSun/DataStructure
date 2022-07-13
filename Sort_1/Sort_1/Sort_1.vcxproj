@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{39A59432-1A16-4D63-AEE8-8FA4C4D55D1D}</ProjectGuid>
-    <RootNamespace>Search_1</RootNamespace>
+    <ProjectGuid>{979CA90B-F718-4DD7-AB18-D952C1D31190}</ProjectGuid>
+    <RootNamespace>Sort_1</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,7 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Search.cpp" />
+    <ClCompile Include="sort_1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

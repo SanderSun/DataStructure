@@ -25,7 +25,7 @@ typedef struct{		//查找表的数据结构(顺序表)
 
 int Binary_Search(SeTable L, int key){
 	int low = 0, high = L.TableLen - 1, mid;
-	while (low<=high)
+	while (low <= high)
 	{
 		mid = (low + high) / 2;		//取中间位置
 		if (L.elem[mid] == key)
@@ -55,7 +55,7 @@ int List[100];
 typedef struct BSTNode{
 	int key;
 	struct BSTNode *lchild, *rchild;
-}BSTNode,*BSTree;
+}BSTNode, *BSTree;
 
 #define 二叉顺序树的查找
 #ifdef 二叉顺序树的查找
@@ -125,7 +125,7 @@ typedef struct AVLNode{
 	int key;	//数据域
 	int balance;	//平衡因子
 	struct AVLNode *lchild, *rchild;
-}AVLNode,*AVLTree;
+}AVLNode, *AVLTree;
 
 #endif // 平衡二叉树
 
@@ -139,3 +139,18 @@ struct RBnode{		//红黑树的结点定义
 	int color;			//结点颜色，如：可用0/1 黑/红 枚举型enum表示颜色
 };
 #endif // 红黑树
+
+#define 五叉排序树的结点
+#ifdef 五叉排序树的结点
+struct Node{
+	int key[4];		//最多4个关键字
+	struct Node* child[5];	//最多5个孩子
+	int num;		//结点中有几个关键字
+};
+
+
+
+
+
+#endif // 五叉排序树的结点
+
